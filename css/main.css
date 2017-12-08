@@ -54,3 +54,77 @@ h2 {
 p {
   margin: 0;
 }
+
+@media only screen and (min-width:25em) {
+
+  .card-img {
+    display: inline-block;
+    margin: 0 .75em .45em 0;
+  }
+
+  .card-body {
+     margin: 0 0 1.3em;
+     display: inline-block;
+     max-width: 18em;
+ }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  .cards {
+    margin-left: .4em;
+  }
+
+  .card-img {
+    display: block;
+    margin: auto;
+  }
+
+  .card-body {
+    margin: 1.4em 0;
+    max-width: 10em;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  .card-body {
+    margin: 1.3em 0;
+    max-width: 15em;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
+  .cards {
+    margin: 0 .5em;
+  }
+
+  .card-img {
+    display: inline-block;
+    margin: 1em .4em;
+  }
+
+  .card-body {
+    margin: 0;
+    max-width: 18em;
+  }
+
+}
