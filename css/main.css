@@ -22,35 +22,80 @@ body {
   padding: 0;
 }
 
-img {
+.card-img img {
   width: 100%;
 }
 
 .cards {
   position: relative;
+  margin: 0;
+  padding-left: 0;
+  list-style-type: none;
 }
 
 .card {
-  margin: .75em;
-  padding: 0;
+  margin: 0;
+  padding: .75em;
   display: block;
 }
 
 .card-img {
   width: 50px;
-  margin: auto;
+  margin: 0 auto 1em;
   display: block;
 }
 
 .card-body {
   padding: 0;
-  margin: 1.3em 0;
 }
 
-h2 {
+.card-body h2 {
   margin: 0;
 }
 
-p {
+.card-body p {
   margin: 0;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .card-img {
+    float: left;
+    margin-top: .6em;
+  }
+
+  .card-body {
+    margin-left: 60px;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .card-img {
+    float: none;
+  }
+
+  .card-body {
+    margin: 0;
+  }
+
+  .card {
+    display: inline-block;
+    width: 33.3333%;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .card-img {
+    float: left;
+    margin-top: .6em;
+  }
+
+  .card-body {
+    margin-left: 60px;
+  }
+
 }
